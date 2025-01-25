@@ -39,9 +39,9 @@ CreateThread(function()
                             dimensions.y - 0.3, dimensions.z + 1.0, 0.0, 0.0, 0.0, false, false, false, true, 0, true)
                         end
 
-                        lib.requestAnimDict('missfinale_c2ig_11')
+                        lib.requestAnimDict('missfinale_c2ig_11', 1500)
                         TaskPlayAnim(cache.ped, 'missfinale_c2ig_11', 'pushcar_offcliff_m', 2.0, -8.0, -1, 35, 0, false, false, false)
-
+                        RemoveAnimDict('missfinale_c2ig_11')
                         while true do
                             Wait(0)
                             if IsDisabledControlPressed(0, 34) then
