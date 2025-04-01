@@ -16,7 +16,7 @@ end)
 lib.addKeybind({
   name = 'crouch',
   description = 'Crouch',
-  defaultKey = 'K',
+  defaultKey = 'U',
   onReleased = function(self)
     if cache.vehicle then return end
       LocalPlayer.state:set("crouch", not LocalPlayer.state.crouch, false)
