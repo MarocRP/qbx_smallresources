@@ -7,6 +7,6 @@ return {
         controls = {37},
 
         -- the small white dot in the middle of the screen when aiming with a weapon.
-        recticle = true,
+        recticle = false,
     }
 }
