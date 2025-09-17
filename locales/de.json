@@ -8,7 +8,8 @@
       "stress_gain": "Stress nimmt zu!",
       "no_vehicle_nearby": "Kein Fahrzeug zum Umdrehen in der Nähe.",
       "is_handcuffed": "Du bist gefesselt.",
-      "is_fastened": "Du trägst einen Sicherheitsgurt."
+      "is_fastened": "Du trägst einen Sicherheitsgurt.",
+      "vehicle_radio_off": "Fahrzeugradio ausgeschaltet"
    },
    "success": {
       "cruise_control_enabled": "Tempomat eingeschaltet",
@@ -16,7 +17,8 @@
       "stopped_recording": "Auzfnahme gestoppt!",
       "saved_recording": "Aufnahme gespeichert!",
       "stress_relief": "Du entspannst dich!",
-      "flipped_car": "Fahrzeug erfolgreich gedreht!"
+      "flipped_car": "Fahrzeug erfolgreich gedreht!",
+      "vehicle_radio_on": "Fahrzeugradio eingeschaltet"
    },
    "progress": {
       "eating": "Essen..",
@@ -33,7 +35,9 @@
    "info": {
       "minutes": "Minuten",
       "seconds": "Sekunden..",
-      "shuffleSeat": "Sitz wechseln"
+      "shuffleSeat": "Sitz wechseln",
+      "teleport_level_select": "Go To Level #%s",
+      "teleport_current_level_indication": "(You're Here)"
    },
    "actions": {
       "push_vehicle": "Drücke [~g~SHIFT~w~] und [~g~E~w~], um das Fahrzeug zu schieben, bis [~g~SHIFT~w~] losgelassen wird",
